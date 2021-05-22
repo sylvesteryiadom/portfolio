@@ -9,6 +9,10 @@ html {
   line-height: 1.5;
   overflow-x: hidden;
   text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 
 /* Background image styling */
@@ -54,6 +58,9 @@ html {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 a {
@@ -163,5 +170,37 @@ ul {
   opacity: 1;
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+@media screen and (max-width: 799px) {
+  .wallpaper {
+    background-size: cover;
+    top: 0;
+    left: 0;
+  }
+  header {
+    width: 90%;
+  }
+  hr {
+    width: 90%;
+  }
+  main .name {
+    font-size: 1.6rem;
+    margin-bottom: 0;
+  }
+  main hr {
+    width: 10%;
+  }
+  main p {
+    margin-left: 0;
+    padding-right: 1rem;
+  }
+  main div {
+    font-size: 1.1rem;
+  }
+  figure {
+    width: 200px;
+    height: 200px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

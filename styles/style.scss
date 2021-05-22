@@ -10,6 +10,9 @@ html {
 	// min-height: 100vh;
 	overflow-x: hidden;
 	text-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 /* Background image styling */
@@ -44,6 +47,7 @@ html {
 
 .btn {
 	display: flex;
+	justify-content: center;
 }
 
 a {
@@ -153,5 +157,43 @@ ul {
 			opacity: 1;
 			transform: scale(1.1);
 		}
+	}
+}
+
+// Responsive design
+@media screen and (max-width: 799px) {
+	.wallpaper {
+		background-size: cover;
+		top: 0;
+		left: 0;
+	}
+
+	header {
+		width: 90%;
+	}
+	hr {
+		width: 90%;
+	}
+	main {
+		.name {
+			font-size: 1.6rem;
+			margin-bottom: 0;
+		}
+		hr {
+			width: 10%;
+		}
+		p {
+			margin-left: 0;
+			padding-right: 1rem;
+		}
+
+		div {
+			font-size: 1.1rem;
+		}
+	}
+
+	figure {
+		width: 200px;
+		height: 200px;
 	}
 }
