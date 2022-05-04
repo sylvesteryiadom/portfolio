@@ -1,6 +1,6 @@
 # Portfolio Website
 
-SWE Portfolio website powered by AWS Amplify CI/CD
+Portfolio website powered by AWS Amplify
 
 ## Features
 
