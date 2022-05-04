@@ -98,8 +98,8 @@ hr {
 }
 
 figure {
-  width: 250px;
-  height: 250px;
+  width: 290;
+  height: 275px;
   background-image: url("/images/image.jpg");
   background-size: cover;
   background-position: top;
