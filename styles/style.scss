@@ -191,9 +191,13 @@ ul {
 			font-size: 1.1rem;
 		}
 	}
-
+	.container{
+		width: 0;
+	}
 	figure {
-		width: 200px;
+		width: 225px;
 		height: 200px;
+		// helps center the image
+		margin: auto;
 	}
 }
